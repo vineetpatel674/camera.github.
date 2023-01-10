@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0
+}
+
+.mySlides {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
+
+.navbar {
+  background-color: darkkhaki;
+  height: 73px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.Camera {
+  font-size: 50px;
+  padding: 9px 0px 0px 0px;
+  text-shadow: 0px 11px 8px blue;
+}
+
+.backg {
+  margin: 0px 0px 0px 62px;
+  transition: 1s;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.backg:hover {
+  margin: 28px 0px 0px 0px;
+  transition: 1s;
+  background-color: rgb(194, 184, 52);
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navb li {
+  list-style: none;
+  margin: 28px 0px 0px 0px;
+  background-color: rgb(181, 171, 32);
+  height: 32px;
+  width: 390px;
+  text-align: center;
+  transition: 1s;
+  align-items: center;
+  color: aliceblue;
+}
+
+.navb li:hover {
+  list-style: none;
+  margin: 28px 0px 0px 0px;
+  background-color: rgb(97, 91, 7);
+  height: 32px;
+  width: 390px;
+  text-align: center;
+  align-items: center;
+  transition: 1s;
+  color: aliceblue;
+}
+
+.backgraund {
+  text-decoration: none;
+  color: aliceblue;
+  align-items: center;
+}
+
+.back {
+  height: 3px;
+  width: 390px;
+  align-items: center;
+  margin: 41px 0px 0px 0px;
+  border: 1px solid rgb(25, 68, 68);
+
+}
+
+/*slider img*/
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.section img {
+  height: 400px;
+  border: 2px solid gray;
+  margin: 50px 0px 0px 52px;
+  border-radius: 0px 293px 5px 204px;
+}
+
+.section-text {
+  margin: 78px 15px 0px 20px;
+
+}
+
+.left {
+  margin: 59px 70px 10px 65px;
+}
+
+.right img {
+  height: 400px;
+  margin: 56px 54px 0px 0px;
+  border: 3px solid gainsboro;
+  box-shadow: 0px 0px 11px 3px;
+  opacity: 0.8;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+}
+
+.video {
+  height: 400px;
+  position: relative;
+  margin: 17px 0px 0px 0px;
+}
+
+.video-text {
+  position: absolute;
+  top: 473%;
+  left: 5.2%;
+  height: 154px;
+  width: 710px;
+  text-align: center;
+  color: whitesmoke;
+  background: rgba(6, 6, 6, 0.514);
+}
+
+.came {
+  display: flex;
+  justify-content: center;
+}
+
+.came img {
+  height: 343px;
+  width: 204px;
+  transition: all 1s cubic-bezier(0.4, 0, 1, 1) 0s;
+  margin: 40px 0px 74px 0px;
+  opacity: 0.7;
+}
+
+.came img:hover {
+  height: 355px;
+  width: 220px;
+  opacity: 90%;
+  margin: 40px 0px 74px 0px;
+  transition: all 1s cubic-bezier(0.4, 0, 1, 1) 0s;
+  border: 2px solid gray;
+  box-shadow: 0px 0px 4px 2px blue;
+  cursor: pointer;
+}
+
+.p {
+  margin: 0px 109px 49px 119px;
+}
+
+.div {
+  margin: 15px 89px 0px 47px;
+}
+
+.camera-info-ink {
+  width: 267px;
+  border: 2px solid gray;
+  height: 417px;
+  margin: 0px 52px 0px 0px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+}
+
+.camera-info-ink p {
+  width: 309px;
+  padding: 13px 0px 0px 20px;
+}
+
+.camera-info-ink a {
+  text-decoration: none;
+  color: black;
+}
+
+.camera-info-text {
+  margin: 25px 120px 0px 110px;
+}
+
+.camera-info-text img {
+  height: 300px;
+  border-radius: 25px;
+}
+
+.slider {
+  position: relative;
+
+}
+
+.contact-form {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: #0000005a;
+  color: whitesmoke;
+  height: 400px;
+  width: 425px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  transition: 1s;
+  bottom: 0;
+}
+.contact-form:hover {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: whitesmoke;
+  color: black;
+  height: 400px;
+  width: 425px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  transition: 1s;
+  bottom: 0;
+}
+.login{
+  font-size: 40px;
+}
+
+.creat {
+  color: blue;
+  margin: 30px 0px 0px 0px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.form {
+  margin: 39px 0px 0px 0px;
+  height: 40px;
+  font-size: 30px;
+  color: black;
+  border-radius: 8px;
+  border: 2px;
+  transition: 1s;
+}
+.form:hover {
+  margin: 39px 0px 0px 0px;
+  height: 40px;
+  font-size: 30px;
+  color: black;
+  border-radius: 8px;
+  border: 2px;
+  transition: 1s;
+  box-shadow: 0px 0px 8px 5px blue;
+}
+.button{
+  background-color: rgb(125, 125, 251);
+  height: 40px;
+  width: 200px;
+  margin: 14px 0px 0px 0px;
+  border: 2px;
+  transition: 1s;
+  font-size: 30px;
+  border-radius: 5px;
+}
+.button:hover{
+  background-color: blue;
+  height: 40px;
+  width: 200px;
+  margin: 14px 0px 0px 0px;
+  cursor: pointer;
+  border: 2px;
+  transition: 1s;
+  font-size: 30px;
+  border-radius: 5px;
+}
+.button:hover:focus{
+  background-color: blue;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  margin: 14px 0px 0px 0px;
+  box-shadow: 0px 0px 8px 5px red;
+  border: 2px;
+  font-size: 30px;
+  border-radius: 5px;
+}

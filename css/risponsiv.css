@@ -1,0 +1,39 @@
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  @media only screen and (max-width: 1246px){
+    .navbar{
+      width: 1243px;
+    }
+    .slider{
+      width: 1243px;
+    }
+    .dis-img-test{
+      flex-direction: column;
+
+    }
+    .right{
+      width: 400px;
+    }
+    .rispon-margin{
+      margin: 0px 0px 0px 300px;
+    }
+    .rispon-mar{
+      margin: 50px 0px 50px 300px;
+    }
+    .risponsiv-margin{
+      margin: 0px 0px 0px 600px;
+    }
+    .footer{
+      width: 1243px;
+
+    }
+
+  }

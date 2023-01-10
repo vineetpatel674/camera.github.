@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.display {
+    display: flex;
+}
+
+.tex {
+    text-decoration: none;
+    list-style: none;
+}
+
+.justify-contact {
+    justify-content: space-around;
+}
+
+.search {
+    height: 36px;
+    margin: 35px 0px 0px 0px;
+    font-size: 19px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.search:hover {
+    height: 36px;
+    margin: 35px 0px 0px 0px;
+    font-size: 19px;
+    border-radius: 5px;
+    transition: 1s;
+    box-shadow: 0px 0px 9px 1px blue;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify-contact {
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: darkkhaki;
+    color: rgb(19, 18, 18);
+    animation-name: example;
+    animation-direction: 4s;
+}
+
+.copyright {
+    font-size: 25px;
+}
+
+.headline {
+    font-size: 39px;
+    font-weight: 700;
+    text-shadow: 0px 11px 8px blue;
+
+}
+
+.sear {
+    height: 39px;
+    margin: 35px 4px 0px 0px;
+    border: 2px solid #0a4444;
+    border-radius: 8px;
+    transition: 1s;
+
+}
+
+.sear:hover {
+    height: 39px;
+    margin: 35px 4px 0px 0px;
+    border: 2px solid #0a4444;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 0px 0px 9px 1px blue;
+}
+
+.camera img {
+    height: 500px;
+    border-radius: 130px 130px 130px 130px;
+    margin: 31px 0px 10px 25px;
+    box-shadow: 0px 0px 12px 4px;
+}
+
+.cinfo h1 {
+    font-size: 38px;
+    margin: 85px 0px 0px 21px;
+    color: #9b0404;
+}
+
+.cinfo p {
+    font-size: 23px;
+    margin: 27px 0px 0px 30px;
+}
+
+.camerabuy img {
+    height: 401px;
+    width: 283px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+.camerabuy img:hover {
+    height: 401px;
+    width: 283px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+.video-camera img {
+    height: 401px;
+    width: 283px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+.video-camera img:hover {
+    height: 401px;
+    width: 283px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+.camerabuy {
+    margin: 0px 0px 36px 105px;
+    background-color: snow;
+    text-align: center;
+    border: 2px solid gainsboro;
+    width: 287px;
+    height: 555px;
+    border-radius: 10px;
+    transition: 1s;
+    opacity: 0.7;
+}
+
+.camerabuy:hover {
+    margin: 0px 0px 36px 105px;
+    background-color: snow;
+    text-align: center;
+    border: 2px solid gainsboro;
+    width: 287px;
+    height: 563px;
+    border-radius: 10px;
+    transition: 1s;
+    opacity: 90%;
+}
+
+.video-camera {
+    margin: 0px 0px 36px 105px;
+    background-color: snow;
+    text-align: center;
+    border: 2px solid gainsboro;
+    width: 287px;
+    height: 555px;
+    border-radius: 10px;
+    transition: 1s;
+    opacity: 0.7;
+
+}
+.video-camera:hover {
+    margin: 0px 0px 36px 105px;
+    background-color: snow;
+    text-align: center;
+    border: 2px solid gainsboro;
+    width: 287px;
+    height: 563px;
+    border-radius: 10px;
+    transition: 1s;
+    opacity: 90%;
+
+}
+
+.camera-button {
+    height: 40px;
+    width: 167px;
+    margin: 6px 0px 0px 0px;
+    background-color: #5062fefd;
+    border: 1px;
+    border-radius: 5px;
+    color: whitesmoke;
+    transition: 1s;
+    font-size: 20px;
+}
+
+.camera-button:hover {
+    height: 40px;
+    width: 167px;
+    margin: 6px 0px 0px 0px;
+    background-color: #041cfcf7;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    transition: 1s;
+    font-size: 20px;
+}
+.caminfo{
+    margin: 13px 113px 41px 57px;
+    color: #04a1a1;
+}
+
+.contact{
+    margin: 52px 0px 21px 130px;
+    color: rgb(118, 117, 117);
+
+}
+.contact-img{
+    background-color: rgb(229, 229, 229);
+    color: rgb(81, 81, 81);
+}
+.contact-img img{
+   height: 500px;
+}
+.text-img{
+    margin: 84px 10px 0px 48px;
+    font-size: 15px;
+}
