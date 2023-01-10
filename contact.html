@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/untils.css">
+    <link rel="stylesheet" href="css/risponsiv.css">
+    <link rel="stylesheet" href="connect.php">
+    <title>CAMERA</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar display justify-contact">
+                <div class="display"><img src="images/camera.png" alt="bird">
+                    <h1 class="Camera">CAMERA</h1>
+                </div>
+                <ul class="display back navb tex">
+                    <li class="backg"><a href="index.html" class="backgraund">Home</a></li>
+                    <li class="backg"><a href="about.html" class="backgraund">About Us</a></li>
+                    <li class="backg"><a href="camera.html" class="backgraund">Camera</a></li>
+                    <li class="backg"><a href="services.html" class="backgraund">Services</a></li>
+                    <li class="backg"><a href="contact.html" class="backgraund">Contact</a></li>
+                </ul>
+                <input type="text" placeholder="Search box" class="search"><img src="images/search.png" alt="search"
+                    class="sear">
+            </nav>
+
+        </header>
+        <main>
+            <div class="slider">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="images/camera (5).jpg" style="width:100% ;">
+                        <div class="text">CAMERA </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="images/camera (3).jpg" style="width:100% ;">
+                        <div class="text">CAMERA</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="images/camera (4).jpg" style="width:100% ;">
+                        <div class="text">CAMERA </div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+            </div>
+            <div class="display dis-img-test rispon-margin right">
+                <section class="section">
+                    <img src="images/contact (1).jpg" alt="contact-img">
+                </section>
+                <section class="section-text">
+                    <h1> Dolor sit amet consectetur,</h1> Adipisicing elit. Eum explicabo ipsam perspiciatis odit,
+                    quidem assumenda magnam hic? Eius consectetur soluta libero rem odio incidunt repellendus aperiam!
+                    Optio enim veritatis vero ipsam cupiditate, delectus omnis laudantium quos sint inventore officia
+                    perferendis? Itaque reprehenderit possimus fugit tenetur facere necessitatibus tempora! Quod fugiat
+                    pariatur saepe quos possimus repellendus quasi, ipsam, laboriosam assumenda voluptates quis veniam
+                    voluptate minima perferendis rerum eum repellat! Deserunt placeat et porro, ab, harum nobis
+                    reprehenderit, eos culpa accusantium aliquid sequi quam dolor excepturi facilis vel. Hic corporis
+                    quisquam velit neque dolores expedita saepe esse amet quam aliquid officia, quos nulla! Aspernatur
+                    necessitatibus ipsa ipsum asperiores fuga incidunt vero, qui quisquam nesciunt quo aliquam vitae
+                    corporis iusto non ipsam, nulla quibusdam cupiditate ea! Doloribus cupiditate voluptates ad unde
+                    aperiam itaque ullam accusantium culpa veritatis debitis quas, vero commodi modi mollitia aspernatur
+                    placeat veniam animi iste nobis rem et. Impedit, dicta!
+                </section>
+            </div>
+            <div class="contact rispon-mar right ">
+                <h1>Contact Us</h1>
+                <p>Phone Number - 879 xxxx xxx</p>
+                <p>Email ID - Camera435@gmail.com</p>
+            </div>
+            <div class="contact-form">
+                <form action="connect.php" method="post">
+                    <h1 class="login">login</h1><br>
+                    <input type="text" class="form" placeholder="Email/Phone number"id="email" name="email"><br>
+                    <input type="password" class="form" placeholder="Password"id="password" name="password"><br>
+                    <p class="creat">Forget Password</p>
+                    <hr>
+                    <p class="creat">Creat Account</p>
+                    <button type="submit" class="button">login</button>
+                </form>
+
+            </div>
+
+            <div class="contact-img display">
+                <img src="images/contact (2).jpg" alt="contact-img">
+                <div class="text-img">
+                    <p>
+                    <h1>Contact Us | Information</h1> <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                    magnam sed incidunt quia eum maiores quos! Maxime dolores fugit ab obcaecati consequuntur. Ad natus
+                    nisi
+                    non possimus voluptatum commodi sint amet. Magni provident tempora mollitia dignissimos numquam
+                    corporis
+                    officia qui quod laborum error minima reprehenderit voluptatum illum itaque, corrupti rerum! </p>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="center headline"><img src="images/camera.png" alt="icon" height="50px">CAMERA</div>
+            <h1 class="copyright center">Terms and conditions | Copyright ©2022 All rights reserved @ Aditya Patel</h1>
+
+        </footer>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>
